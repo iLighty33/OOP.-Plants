@@ -115,7 +115,7 @@ int main() {
 	Bushes Kustarnik("Kustarnik", 50);
 	Bushes Repeynik("Repeynik", 30);
 
-	std::cout << "Common quantity of objects: " << Plants::getCounter() << endl;
+	std::cout << "Common quantity of plants: " << Plants::getCounter() << endl;
 	std::cout << "Common quantity of fruits: " << Plants::fruits_ << endl;
 	std::cout << "Common quantity of berries: " << Plants::berries_ << endl;
 
